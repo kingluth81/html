@@ -1,0 +1,10 @@
+TP or File Transfer Protocol is used to transfer local computer files to a remote web server. FileZilla is the FTP program that I am using to 
+transfer my files.
+
+To set up FileZilla, I first downloaded the Windows version of the program from the Resources section on Blackboard and installed it on my computer.
+Next, I created a new site named "electron". I did this by first selecting Site Manager from the File menu. Next, I selected "New Site" and inputted 
+"electron.cs.uwindsor.ca" for Host, "22" for Port, "SFTP - SSH File Transfer Protocol" for Protocol, "Ask for password" as the Logon Type, and 
+"secens" for User. Once all of this information was inputted, I clicked "OK" to save the site.
+
+To add files to the electron server that I saved, I select Site Manager from the File menu, select the "electron" server, click "Connect", and input
+my Uwin Account password. Now that I am connected, I can drag and drop files from my local computer to the electron web server.

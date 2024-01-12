@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang = "en">
+    <head> <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"
+        content="IE=edge"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image unfolding</title>
+        <script language="javascript"
+        type="text/javascript">
+        var timerid =0;
+        var images = new Array("apple.jpg");
+        var countimages=0;
+        function startTime()    {if(timerid)
+        {   timerid=0   }
+    var tDate = new Date();
+if (countimages == images.length)
+{   countimages=0;  }
+if(tDate.getSeconds() % 5==0    {
+
+    document.getElementById("img5").src = images[countimages];
+}       countimages++;
+timer = setTimeout("startTime()", 1500);
+        }       </script></head><body>
+        <img id = "img5" src = "apple.jpg"/>
+        <\body></html>

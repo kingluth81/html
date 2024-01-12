@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Binary Number</title>
+</head>
+<body>
+  <select id="bit" multiple>
+    <option value="0001">0001</option>
+    <option value="0010">0010</option>
+    <option value="0100">0100</option>
+    <option value="1000">1000</option>
+  </select> = <span id="output">0</span>
+
+  <script>
+    const bit = document.getElementById('bit');
+    const outputElement = document.getElementById('output');
+
+    bit.addEventListener('change', BinaryNumberUpdt);
+
+    function BinaryNumberUpdt() {
+      const selectedOptions = Array.from(bit.selectedOptions)
+      //const binaryNumber
+
+    }
+  </script>
+</body>
+</html>
